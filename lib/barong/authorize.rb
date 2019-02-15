@@ -51,6 +51,8 @@ module Barong
       user = User.find_by_id(current_api_key.user_id)
       error!({ errors: ['authz.invalid_session'] }, 401) unless user.active?
 
+      error!({ errors: ['authz.disabled_2fa'] }, 401) unless user.otp
+
       user # returns user(api key creator)
     end
 
