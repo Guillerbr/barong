@@ -21,7 +21,7 @@ gem 'mini_racer', platforms: :ruby
 gem 'kaminari'
 
 gem 'peatio', '~> 0.4.4'
-gem 'rack-cors', '~> 1.0.2'
+gem 'rack-cors', '~> 1.0.5'
 
 # REST-like API framework for Ruby
 gem 'grape',        '~> 1.0'
