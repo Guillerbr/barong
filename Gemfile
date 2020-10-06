@@ -24,7 +24,7 @@ gem 'peatio', '~> 0.4.4'
 gem 'rack-cors', '~> 1.0.2'
 
 # REST-like API framework for Ruby
-gem 'grape',        '~> 1.0'
+gem 'grape',        '~> 1.5'
 gem 'grape-entity', '~> 0.7.1'
 gem 'grape-swagger', '~> 0.28'
 gem 'grape-swagger-entity', '~> 0.2'
