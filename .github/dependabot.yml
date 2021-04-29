@@ -1,0 +1,34 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: excon
+    versions:
+    - 0.78.1
+    - 0.79.0
+    - 0.80.1
+  - dependency-name: nokogiri
+    versions:
+    - 1.11.1
+    - 1.11.2
+  - dependency-name: grape
+    versions:
+    - 1.5.1
+    - 1.5.2
+  - dependency-name: carrierwave
+    versions:
+    - 2.1.0
+    - 2.1.1
+  - dependency-name: loofah
+    versions:
+    - 2.9.0
+  - dependency-name: mini_racer
+    versions:
+    - 0.3.1
+  - dependency-name: jwt
+    versions:
+    - 2.2.2
